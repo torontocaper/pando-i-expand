@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpabyv0chtru6"]
+
+[ext_resource type="PackedScene" uid="uid://b8n5hcysdrpgp" path="res://polygon_hex_48_w.tscn" id="1_sg7oa"]
+
+[node name="polygon_hex_48_w" instance=ExtResource("1_sg7oa")]
+color = Color(0.12549, 0.12549, 0.0862745, 1)
