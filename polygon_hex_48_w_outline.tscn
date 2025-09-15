@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://w0y7o01bnwek"]
+
+[node name="polygon_hex_48_w_outer" type="Polygon2D"]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(24, 0, 12, 21, -12, 21, -24, 0, -12, -21, 12, -21)
+uv = PackedVector2Array(98, 31, 72, 140, 221, 250, 390, 173, 352, 44, 236, 20)
+
+[node name="polygon_hex_42_w_inner" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(22.25, 0, 11, 19.5, -11, 19.5, -22.25, 0, -11, -19.5, 11, -19.5)

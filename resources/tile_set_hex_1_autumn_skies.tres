@@ -1,34 +1,20 @@
-[gd_resource type="TileSet" load_steps=14 format=3 uid="uid://01kf3fnihyor"]
+[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://01kf3fnihyor"]
 
-[ext_resource type="PackedScene" uid="uid://c48lrjoqwqfd8" path="res://hex_tile_scenes/harvest/poly_harvest_cream.tscn" id="1_51ecx"]
-[ext_resource type="PackedScene" uid="uid://dyu2bcnrwgi5x" path="res://hex_tile_scenes/harvest/poly_harvest_purple.tscn" id="2_1mdg8"]
-[ext_resource type="PackedScene" uid="uid://bncnu8it73c36" path="res://hex_tile_scenes/harvest/poly_harvest_red.tscn" id="3_6bc33"]
-[ext_resource type="PackedScene" uid="uid://dn18km2lekuoo" path="res://hex_tile_scenes/harvest/poly_harvest_yellow.tscn" id="4_f1wbs"]
-[ext_resource type="PackedScene" uid="uid://b433q3v453jt1" path="res://hex_tile_scenes/harvest/poly_harvest_dark_blue.tscn" id="5_mxva6"]
-[ext_resource type="PackedScene" uid="uid://bgbd362cabfou" path="res://hex_tile_scenes/harvest/poly_harvest_dark_green.tscn" id="6_5hkgo"]
-[ext_resource type="PackedScene" uid="uid://hqhkxfbhp8bg" path="res://hex_tile_scenes/harvest/poly_harvest_gold.tscn" id="7_4hg2j"]
-[ext_resource type="PackedScene" uid="uid://csovjymjvd2ec" path="res://hex_tile_scenes/harvest/poly_harvest_lavender.tscn" id="8_r7sb3"]
-[ext_resource type="PackedScene" uid="uid://dd85g1hkhv04u" path="res://hex_tile_scenes/harvest/poly_harvest_light_blue.tscn" id="9_dkict"]
-[ext_resource type="PackedScene" uid="uid://cq0vapym2n0cm" path="res://hex_tile_scenes/harvest/poly_harvest_mid_blue.tscn" id="10_lp7i5"]
-[ext_resource type="PackedScene" uid="uid://0tef5puyfvht" path="res://hex_tile_scenes/harvest/poly_harvest_olive.tscn" id="11_50mfg"]
-[ext_resource type="PackedScene" uid="uid://cafltvafqmli0" path="res://hex_tile_scenes/harvest/poly_harvest_orange.tscn" id="12_6qqup"]
+[ext_resource type="PackedScene" uid="uid://csj2xvkbefhlf" path="res://hex_tile_scenes/autumn_harvest_37/poly_ah37_dark_blue.tscn" id="1_mpo1f"]
+[ext_resource type="PackedScene" uid="uid://xtf42s68mq85" path="res://hex_tile_scenes/autumn_harvest_37/poly_ah37_dark_brown.tscn" id="2_6flgw"]
+[ext_resource type="PackedScene" uid="uid://pykpjf2qudjj" path="res://hex_tile_scenes/autumn_harvest_37/poly_ah37_dark_green.tscn" id="3_y2ec2"]
+[ext_resource type="PackedScene" uid="uid://pmcew5jrmi7f" path="res://hex_tile_scenes/autumn_harvest_37/poly_ah37_dark_orange.tscn" id="4_x14ii"]
+[ext_resource type="PackedScene" uid="uid://c5d5xdr006gb1" path="res://hex_tile_scenes/autumn_harvest_37/poly_ah37_dark_red.tscn" id="5_e30k4"]
 
-[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_ag8t7"]
-scenes/1/scene = ExtResource("1_51ecx")
-scenes/2/scene = ExtResource("5_mxva6")
-scenes/3/scene = ExtResource("6_5hkgo")
-scenes/4/scene = ExtResource("7_4hg2j")
-scenes/5/scene = ExtResource("8_r7sb3")
-scenes/6/scene = ExtResource("9_dkict")
-scenes/7/scene = ExtResource("10_lp7i5")
-scenes/8/scene = ExtResource("11_50mfg")
-scenes/9/scene = ExtResource("12_6qqup")
-scenes/10/scene = ExtResource("2_1mdg8")
-scenes/11/scene = ExtResource("3_6bc33")
-scenes/12/scene = ExtResource("4_f1wbs")
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_2bu3p"]
+scenes/1/scene = ExtResource("1_mpo1f")
+scenes/2/scene = ExtResource("2_6flgw")
+scenes/3/scene = ExtResource("3_y2ec2")
+scenes/4/scene = ExtResource("4_x14ii")
+scenes/5/scene = ExtResource("5_e30k4")
 
 [resource]
 tile_shape = 3
 tile_offset_axis = 1
 tile_size = Vector2i(48, 42)
-sources/2 = SubResource("TileSetScenesCollectionSource_ag8t7")
+sources/3 = SubResource("TileSetScenesCollectionSource_2bu3p")
