@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bskv5hwwghdru"]
+
+[node name="poly_iso_48_outer" type="Polygon2D"]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(24, 0, 0, 12, -24, 0, 0, -12)
+
+[node name="poly_iso_44_inner" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(22, 0, 0, 11, -22, 0, 0, -11)
