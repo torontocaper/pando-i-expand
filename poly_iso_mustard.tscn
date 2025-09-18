@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbnh0gfc3qkrp"]
+
+[ext_resource type="PackedScene" uid="uid://bskv5hwwghdru" path="res://poly_iso.tscn" id="1_aod3t"]
+
+[node name="poly_iso_48_outer" instance=ExtResource("1_aod3t")]
+
+[node name="poly_iso_44_inner" parent="." index="0"]
+color = Color(0.792157, 0.529412, 0.239216, 1)

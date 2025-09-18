@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="pando-i-expand"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/tags=PackedStringArray("2d", "gamejam", "isometric", "strategy")
+config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
