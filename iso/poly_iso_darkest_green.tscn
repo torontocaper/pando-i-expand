@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cqncemdf0afpy"]
 
-[ext_resource type="PackedScene" uid="uid://bskv5hwwghdru" path="res://poly_iso.tscn" id="1_pclxt"]
+[ext_resource type="PackedScene" uid="uid://bskv5hwwghdru" path="res://iso/poly_iso.tscn" id="1_pclxt"]
 
 [node name="poly_iso_48_outer" instance=ExtResource("1_pclxt")]
 
