@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://b77dmmwdlnxgj"]
+
+[ext_resource type="PackedScene" uid="uid://ca50llaol2r3k" path="res://tml_square.tscn" id="1_aatmd"]
+[ext_resource type="Texture2D" uid="uid://bi4bixdsp1yt0" path="res://assets/palettes/autumn-harvest-37-32x-37-colors.png" id="2_pfg8f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2dbb"]
+atlas = ExtResource("2_pfg8f")
+region = Rect2(32, 0, 128, 32)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wph8t"]
+resource_name = "blues"
+texture = SubResource("AtlasTexture_j2dbb")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_hye5n"]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TileSetAtlasSource_wph8t")
+
+[node name="tml_square" instance=ExtResource("1_aatmd")]
+tile_set = SubResource("TileSet_hye5n")

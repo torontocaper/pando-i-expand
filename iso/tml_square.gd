@@ -1,4 +1,5 @@
 extends TileMapLayer
+class_name TMLSquare
 
 signal clicked
 signal hovered
@@ -17,10 +18,11 @@ func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.is_pressed() and event.button_index == 1:
 		click_position_map = local_to_map(get_local_mouse_position())
 		print_debug("You clicked a tile at point " + str(click_position_map))
-		var tile_data = get_cell_tile_data(click_position_map)
-		print_debug("Tile data: " + str(tile_data))
-		var tile_title = tile_data.get_custom_data("Title")
-		print_debug("Tile title: " + tile_title)
+		if get_cell_tile_data(click_position_map):
+			var tile_data = get_cell_tile_data(click_position_map)
+			if tile_data.has_custom_data("Title"):
+				var tile_title = tile_data.get_custom_data("Title")
+				print_debug("Tile title: " + tile_title)
 		click_polygon_points = _make_polygon(click_position_map)
 		clicked.emit(click_polygon_points)
 
